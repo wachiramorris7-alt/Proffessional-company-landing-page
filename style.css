@@ -1,0 +1,216 @@
+
+
+    /* style.css */
+
+
+.forms {
+    min-height: 100vh;               
+  background-image: url("assets/pexels-bence-szemerey-337043-6804259.jpg");
+  background-size: cover;          
+  background-position: center;     
+  background-repeat: no-repeat;
+  text-align: center;
+  color: black;
+  font-size: xx-large;
+  font-weight: 600;
+}
+.services {
+      min-height: 100vh;               
+  background-image: url("assets/pexels-rafael-carneiro-1008729396-34680716.jpg");
+  background-size: cover;          
+  background-position: center;     
+  background-repeat: no-repeat;
+}
+.hero {
+  min-height: 100svh;
+  display: flex;
+  align-items: top;
+  background-image: url("assets/pexels-michalrobak-29550062.jpg");
+  background-size: cover;
+  background-position: center bottom;  
+  background-repeat: no-repeat;
+  color:black;
+}
+
+.hero-content {
+  max-width: 560px;
+  
+}
+
+@media (max-width: 768px) {
+  .hero { background-position: 15% bottom; }  
+}
+
+.about {
+     min-height: 100svh;
+  display: flex;
+  text-align: left;
+ background-image: url("assets/pexels-bence-szemerey-337043-6804259.jpg");
+  background-size: cover;
+  background-position: center bottom;  
+  background-repeat: no-repeat;
+  color:black;
+}
+
+
+#paragraph1 {
+    font-size: x-large;
+    font-weight: 700; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+}
+
+.submit {
+  background-color: rgb(231, 178, 178);
+ 
+}
+.opening
+{
+  font-size-adjust: calc(2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: burlywood;
+
+}
+#p1 {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: black ;
+  background-color: red;
+  opacity: 70%;
+  margin-inline-start: 2%;
+  margin-inline-end: 25%;
+  border-radius: 8%;
+  border-style: groove;
+  border-color: black;
+
+}
+
+.index {
+        min-height: 100svh;
+  background-image: url("assets/Embassy Electrical_ Powering Ideas.png");
+   background-size: 1250px;
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+.a1 {
+  background-color: greenyellow;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.srcs {
+  font-size: 70px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color:black;
+  text-decoration: underline;
+  text-transform: capitalize;
+  background-color: aquamarine;
+  opacity: 70%;
+  margin-inline-end: 35%;
+  border-radius: 5%;
+  margin-inline-start: 7%;
+  border-style: groove;
+   border-color: black;
+ 
+}
+.cont {
+    min-height: 100svh;
+  background-image: url("assets/Screenshot 2026-11-08 225824.png");
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+  
+
+#hc {
+  text-decoration: underline;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  margin-inline-start: 15px;
+ 
+}
+#pc {
+   border-radius: 10%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-size: xx-large;
+   color: white;
+   background-color: black;
+   opacity: 40%;
+   border-style: groove;
+  border-color: brown;
+}
+#inst {
+  background-color: rgb(79, 149, 163);
+  background-clip: content-box;
+  opacity: 60%;
+  color: rgb(128, 45, 45);
+  margin-inline-end: 25%;
+  border-radius: 2%;
+  border-style: groove;
+   border-color: black;
+}
+#wlcm {
+  margin-inline-end: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: 500;
+  font-style: italic;
+  text-transform: capitalize;
+  background-color: aqua;
+  opacity: 60%;
+  border-style: groove;
+  border-radius: 10%;
+   border-color: black;
+}
+#footer {
+  background-color: cornflowerblue;
+  opacity: 60%;
+  border-radius: 2%;
+  border-color: black;
+  border-style: groove;
+  
+}
+#fo {
+  text-align: center;
+   text-decoration: underline;
+}
+#ft {
+  text-align: center;
+   text-decoration: underline;
+
+}
+#fr {
+  text-align: center;
+   text-decoration: underline;
+}
+#yr {
+  text-align: right;
+  text-decoration: underline;
+  color:wheat;
+}
+#assist {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+#ln {
+  background-color: bisque;
+  border-radius: 6%;
+  margin-inline-start: 3%;
+  margin-inline-end: 80%;
+  opacity: 60%;
+  border-color: black;
+}
